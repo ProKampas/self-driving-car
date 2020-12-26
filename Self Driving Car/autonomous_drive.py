@@ -65,7 +65,11 @@ def send_control(steering_angle, throttle):
 
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     model = load_model('model.h5')
+=======
+    model = load_model('model-002.h5')
+>>>>>>> 40f4f5b76ecb0838372863166c10aee5f7fc07c5
 
     # wrap Flask application with engineio's middleware
     app = socketio.Middleware(sio, app)
